@@ -29,4 +29,6 @@ const makePayment = async (event: EventHandler) => {
 
   return response;
 };
+
 export default handler(makePayment);
+console.log('dd');
