@@ -31,4 +31,3 @@ const makePayment = async (event: EventHandler) => {
 };
 
 export default handler(makePayment);
-console.log('dd');
