@@ -23,7 +23,6 @@ const createPost = async (event: EventHandler) => {
       createdAt: Date.now(),
     },
   };
-  console.log('testing');
 
   await dynamoDb.put(params);
 
